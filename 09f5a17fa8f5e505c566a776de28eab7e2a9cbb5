@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2b8f23d1_e2862a45",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "Suggest appending this MD-friendly version of license\n\n## License\n\nCopyright (C) 2017 AT\u0026T Intellectual Property \u0026 Tech Mahindra. All rights reserved.\nAcumos is distributed by AT\u0026T and Tech Mahindra under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\nThis file is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either \nexpress or implied.  See the License for the specific language governing permissions and limitations \nunder the License.",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e97b8796_97303524",
+        "filename": "acumos_dcae_model_runner/runner.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "Will you add license headers to your python files?",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ee6b28f_3560dfa1",
+        "filename": "docs/release-notes.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "please add release date",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c747421_42dd6758",
+        "filename": "example/Dockerfile",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "Pls remove email",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6180b002_e18077ad",
+        "filename": "example/dcae-artifacts/component.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "This URL should not go to Gerrit",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "998b4365_6861ccf0",
+        "filename": "example/dcae-helpers/dmaap-file.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "Passwords should not go to gerrit",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6d0479e3_0f81bcc3",
+        "filename": "example/dcae-helpers/dmaap-file.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "Ditto",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d51e3fa0_bfa7325a",
+        "filename": "example/dcae-helpers/dmaap-file.json",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "This URL should not go to gerrit",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7320b318_6f1495ec",
+        "filename": "example/packages/.keep",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "what is a .keep file?  Is it important to commit?",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a59d4e8e_27a9e452",
+        "filename": "setup.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "Don\u0027t think you want your name nor email in this at GErrit",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2643f522_61c326e3",
+        "filename": "tox.ini",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 4
+      },
+      "writtenOn": "2018-02-28T21:43:46Z",
+      "side": 1,
+      "message": "why the line break?",
+      "revId": "09f5a17fa8f5e505c566a776de28eab7e2a9cbb5",
+      "serverId": "655300a2-7a56-4504-9153-881edd907bea",
+      "unresolved": false
+    }
+  ]
+}
