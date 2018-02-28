@@ -1,0 +1,21 @@
+{
+  "dataformatversion": "1.0.0",
+  "self": {
+    "name": "NumbersIn",
+    "version": "0.1.0",
+    "description": "Two numbers to be operated on"
+  },
+  "jsonschema": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "x": {
+        "type": "number"
+      }, 
+      "y": {
+        "type": "number"
+      }
+    },
+    "required": ["x", "y"],
+    "type": "object"
+  }
+}
