@@ -1,0 +1,43 @@
+{
+  "self": {
+    "version": "0.1.3",
+    "name": "acumos-python-model-test",
+    "description": "Mock model to exercise Acumos DCAE model runner",
+    "component_type": "docker"
+  },
+  "streams": {
+    "publishes":[
+      {
+       "config_key":"add_publisher",
+       "format":"NumberOut",
+       "type":"message_router",
+       "version":"0.1.0"
+      }
+    ],
+    "subscribes": [
+      {
+       "config_key":"add_subscriber",
+       "format":"NumbersIn",
+       "type":"message_router",
+       "version":"0.1.0"
+      }
+    ]
+  },
+  "services": {
+    "calls": [],
+    "provides": []
+  },
+  "parameters": [],
+  "auxilary": {
+    "healthcheck": {
+        "type": "http",
+        "endpoint": "/healthcheck"
+    }
+  },
+  "artifacts": [
+    {
+      "uri" : "path.to.docker.repository:port/acumos-python-model-test:0.1.3",
+      "type": "docker image"
+    }
+  ]
+}

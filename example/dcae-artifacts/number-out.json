@@ -1,0 +1,18 @@
+{
+  "dataformatversion": "1.0.0",
+  "self": {
+    "name": "NumberOut",
+    "version": "0.1.0",
+    "description": "The result of an operation"
+  },
+  "jsonschema": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "result": {
+        "type": "number"
+      }
+    },
+    "required": ["result"],
+    "type": "object"
+  }
+}
