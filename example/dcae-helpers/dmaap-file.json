@@ -1,0 +1,18 @@
+{
+    "add_subscriber": {
+       "type": "message_router",
+       "aaf_username" : "m14984@onapClient2.att.com",
+       "aaf_password" : "uhana.io2",
+       "dmaap_info": {
+          "topic_url" : "http://aggsolmrtr01.dcae.solutioning.homer.att.com:3904/events/com.att.dcae.dmaap.SOLN.AcumosTopic1"
+          }
+       },
+    "add_publisher": {
+       "type": "message_router",
+       "aaf_username" : "m14983@onapClient1.att.com",
+       "aaf_password" : "uhana.io1",
+       "dmaap_info": {
+          "topic_url": "http://aggsolmrtr01.dcae.solutioning.homer.att.com:3904/events/com.att.dcae.dmaap.SOLN.AcumosTopic2"
+          }
+    }
+}

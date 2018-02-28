@@ -1,0 +1,19 @@
+# this file is all the relevent DCAE cli tool commants
+
+# install the cli
+pip install --extra-index-url https://nexus01.research.att.com:8443/repository/solutioning01-mte2-pypi/simple dcae-cli --upgrade
+
+# export dockerhost so you can get logs locally
+export DOCKER_HOST="tcp://realsolcpdokr00.dcae.solutioning.homer.att.com:2376"
+
+# add the data format
+dcae_cli data_format add simple-format.json
+
+# add the spec
+dcae_cli component add component-spec.json
+
+# run the component using the test DMaaP topics
+dcae_cli -v component run pythonminimaltest:0.1.0 --dmaap-file sample-dmaap-file
+
+# undeploy component 
+dcae_cli -v component undeploy pythonminimaltest
