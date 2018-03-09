@@ -42,8 +42,8 @@ To execute the model runner, use the provided CLI:
 DCAE Onboarding Example
 =======================
 
-The ``python-dcae-model-runner/example`` directory contains an example
-of how an Acumos model can be onboarded as a DCAE component.
+The ``python-dcae-model-runner`` repository has an ``example/`` directory
+that shows how an Acumos model can be onboarded as a DCAE component.
 
 After executing the steps below, the directory should have this
 structure:
@@ -61,15 +61,10 @@ structure:
     │   ├── model.proto
     │   └── model.zip
     ├── example_model.py
-    ├── packages
-    │   ├── acumos-0.5.0.tar.gz
-    │   └── acumos_dcae_model_runner-0.1.0.tar.gz
     └── requirements.txt
 
-**Note:** The ``packages/`` directory contains source distributions of
-the ``acumos`` and ``acumos_dcae_model_runner`` packages. These are
-required to create the Docker image, as they are not resolvable on PyPI.
-They are not included in this repository.
+**Note:** For this example, the ``requirements.txt`` file should reflect the
+packages and versions listed in ``example-model/metadata.json``.
 
 Steps
 -----

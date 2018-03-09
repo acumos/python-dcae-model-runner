@@ -17,10 +17,10 @@
 .. ===============LICENSE_END=========================================================
 
 ========================
-python-dcae-model-runner
+Acumos DCAE Model Runner
 ========================
 
-The Python DCAE model runner enables Acumos models to be run as if they were
+The Acumos DCAE model runner enables Acumos models to be run as if they were
 DCAE components.
 
 Each Acumos model method is mapped to a subscriber and publisher stream,
@@ -42,13 +42,19 @@ in ``example/`` directory in the root of the repository.
 Installation
 ============
 
-The ``acumos_dcae_model_runner`` package must be installed via source
-until there is appropriate package hosting infrastructure in place:
+The ``acumos_dcae_model_runner`` package can be installed with pip like so:
 
 .. code:: bash
 
-    pip install python-dcae-model-runner/ --process-dependency-links
+    pip install acumos_dcae_model_runner --process-dependency-links
 
 **Note:** The ``--process-dependency-links`` flag is **required**
 because the required ``dcaeapplib`` dependency is not yet hosted on
 PyPI.
+
+If you'd prefer, you can maintain a local directory of Python packages containing
+``dcaeapplib``, and use the ``--find-links`` option:
+
+.. code:: bash
+
+    pip install acumos_dcae_model_runner --find-links path/to/pkgs/

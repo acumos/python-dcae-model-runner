@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.6
+# -*- coding: utf-8 -*-
 # ===============LICENSE_START=======================================================
 # Acumos Apache-2.0
 # ===================================================================================
@@ -16,7 +17,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ===============LICENSE_END=========================================================
-# -*- coding: utf-8 -*-
 """
 Creates an example Acumos model for DCAE on-boarding testing
 """
