@@ -1,0 +1,7 @@
+Verified+1: Acumos Jobbuilder <acumos-jobbuilder@jenkins.acumos.org>
+Code-Review+2: Eric Z <ezavesky@research.att.com>
+Submitted-by: Paul Triantafyllou <trianta@research.att.com>
+Submitted-at: Mon, 19 Mar 2018 20:55:05 +0000
+Reviewed-on: https://gerrit.acumos.org/r/1356
+Project: python-dcae-model-runner
+Branch: refs/heads/master
