@@ -20,7 +20,16 @@
 Release Notes
 =============
 
-v0.1
-====
+v0.1.2
+======
+
+- Removed dependency link for ``dcaeapplib``
+
+v0.1.1
+======
+- Updated dependency link for ``dcaeapplib``. It released a patch that fixed an authentication error. The ``dcaeapplib`` dependency link will be removed once ``dcaeapplib`` is hosted in PyPI.
+
+v0.1.0
+======
 
 -  Initial release of the Acumos DCAE Python model runner

@@ -20,7 +20,7 @@
 Acumos DCAE Model Runner
 ========================
 
-The Acumos DCAE model runner enables Acumos models to be run as if they were
+The Acumos DCAE model runner enables Acumos Python models to be run as if they were
 DCAE components.
 
 Each Acumos model method is mapped to a subscriber and publisher stream,
@@ -37,7 +37,7 @@ that can be used to instantiate the model runner. See the tutorial for more info
 The ``acumos_dcae_model_runner`` package should be installed in the docker image
 that is ultimately on-boarded into DCAE. The model runner CLI utility should be
 the entry point of that Docker image, as shown in the Dockerfile provided
-in ``example/`` directory in the root of the repository.
+in ``example/`` directory in the root of the `Acumos DCAE Model Runner repository <https://gerrit.acumos.org/r/gitweb?p=python-dcae-model-runner.git;a=summary>`__..
 
 Installation
 ============
@@ -46,15 +46,4 @@ The ``acumos_dcae_model_runner`` package can be installed with pip like so:
 
 .. code:: bash
 
-    pip install acumos_dcae_model_runner --process-dependency-links
-
-**Note:** The ``--process-dependency-links`` flag is **required**
-because the required ``dcaeapplib`` dependency is not yet hosted on
-PyPI.
-
-If you'd prefer, you can maintain a local directory of Python packages containing
-``dcaeapplib``, and use the ``--find-links`` option:
-
-.. code:: bash
-
-    pip install acumos_dcae_model_runner --find-links path/to/pkgs/
+    pip install acumos_dcae_model_runner

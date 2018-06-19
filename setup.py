@@ -44,9 +44,6 @@ setup(
         'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: Apache Software License',
     ],
-    dependency_links=[
-        'git+https://gerrit.onap.org/r/dcaegen2/utils.git#egg=dcaeapplib-0.0.5&subdirectory=dcaeapplib'
-    ],
     description='Provides an Acumos model runner for DCAE',
     entry_points={
         'console_scripts': [
@@ -55,7 +52,7 @@ setup(
     },
     install_requires=[
         'acumos>=0.5.0',
-        'dcaeapplib==0.0.5'
+        'dcaeapplib<1.0.0'
     ],
     keywords='acumos dcae',
     license='Apache License 2.0',
@@ -64,5 +61,5 @@ setup(
     packages=find_packages(),
     python_requires='>=3.4',
     url='https://gerrit.acumos.org/r/gitweb?p=python-dcae-model-runner.git',
-    version='0.1.1',
+    version='0.1.2',
 )
