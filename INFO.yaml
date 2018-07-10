@@ -1,0 +1,62 @@
+---
+project: 'python-dcae-model-runner'
+project_creation_date: '2018-02-27'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &acumos_python-dcae-model-runner_ptl
+    name: ''
+    email: ''
+    id: ''
+    company: ''
+    timezone: ''
+primary_contact: '*acumos_python-dcae-model-runner_ptl'
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.acumos.org/projects/ACUMOS'
+    key: 'ACUMOS'
+mailing_list:
+    type: 'groups.io'
+    url: 'lists.acumos.org'
+    tag: '<[sub-project_name]>'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#lf-releng'
+meetings:
+    - type: 'zoom'
+      agenda: ''
+      url: ''
+      server: 'n/a'
+      channel: 'n/a'
+      repeats: 'n/a'
+      time: 'n/a'
+repositories:
+    - 'python-dcae-model-runner'
+committers:
+    - <<: *acumos_python-dcae-model-runner_ptl
+    - name: 'Aimee Ukasick'
+      email: 'aimeeu@research.att.com'
+      company: 'ATT'
+      id: 'aimeeu'
+      timezone: ''
+    - name: 'Eric Z'
+      email: 'ezavesky@research.att.com'
+      company: 'ATT'
+      id: 'ezsomething'
+      timezone: ''
+    - name: 'Tommy Carpenter'
+      email: 'tommy@research.att.com'
+      company: 'ATT'
+      id: 'tommycarpenter'
+      timezone: ''
+    - name: 'Paul Triantafyllou'
+      email: 'trianta@research.att.com'
+      company: 'ATT'
+      id: 'trianta'
+      timezone: ''
+tsc:
+    approval: ''
+    changes:
+        - type: ''
+          name: ''
+          link: ''
