@@ -39,7 +39,6 @@ setup(
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: Apache Software License',
@@ -52,14 +51,14 @@ setup(
     },
     install_requires=[
         'acumos>=0.5.0',
-        'dcaeapplib<1.0.0'
+        'dcaeapplib<2.0.0'
     ],
     keywords='acumos dcae',
     license='Apache License 2.0',
     long_description='\n'.join(_long_descr()),
     name='acumos_dcae_model_runner',
     packages=find_packages(),
-    python_requires='>=3.4',
+    python_requires='>=3.5',
     url='https://gerrit.acumos.org/r/gitweb?p=python-dcae-model-runner.git',
-    version='0.1.2',
+    version='0.1.3',
 )

@@ -20,6 +20,11 @@
 Acumos DCAE Model Runner Release Notes
 ======================================
 
+v0.1.3
+======
+
+- Updated major release bound for ``dcaeapplib``
+
 v0.1.2
 ======
 
