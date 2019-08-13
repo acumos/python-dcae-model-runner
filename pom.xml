@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.acumos.python-dcae-model-runner</groupId>
     <artifactId>python-dcae-model-runner</artifactId>
-    <version>0.1.2</version> <!-- REPEATED IN setup.py MUST MATCH -->
+    <version>0.1.3</version> <!-- MUST MATCH PACKAGE VERSION -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <sonar.sources>.</sonar.sources>
