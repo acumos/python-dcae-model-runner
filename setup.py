@@ -18,10 +18,20 @@
 # ===============LICENSE_END=========================================================
 from os.path import dirname, abspath, join as path_join
 from setuptools import setup, find_packages
+from xml.etree import ElementTree
 
 
+VERSION = '0.1.3'
 SETUP_DIR = abspath(dirname(__file__))
 DOCS_DIR = path_join(SETUP_DIR, 'docs')
+
+
+def _assert_version_match():
+    '''Asserts that the library version matches pom.xml'''
+    pom_path = path_join(SETUP_DIR, 'pom.xml')
+    root = ElementTree.parse(pom_path).getroot()
+    version = root[3]
+    assert version.text == VERSION
 
 
 def _long_descr():
@@ -31,6 +41,8 @@ def _long_descr():
         with open(doc_path) as f:
             yield f.read()
 
+
+_assert_version_match()
 
 setup(
     author='Paul Triantafyllou',
@@ -60,5 +72,5 @@ setup(
     packages=find_packages(),
     python_requires='>=3.5',
     url='https://gerrit.acumos.org/r/gitweb?p=python-dcae-model-runner.git',
-    version='0.1.3',
+    version=VERSION,
 )
