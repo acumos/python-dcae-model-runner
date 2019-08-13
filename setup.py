@@ -23,6 +23,11 @@ from setuptools import setup, find_packages
 SETUP_DIR = abspath(dirname(__file__))
 DOCS_DIR = path_join(SETUP_DIR, 'docs')
 
+with open(path_join(SETUP_DIR, 'acumos_dcae_model_runner', '_version.py')) as file:
+    globals_dict = dict()
+    exec(file.read(), globals_dict)
+    __version__ = globals_dict['__version__']
+
 
 def _long_descr():
     '''Yields the content of documentation files for the long description'''
@@ -60,5 +65,5 @@ setup(
     packages=find_packages(),
     python_requires='>=3.5',
     url='https://gerrit.acumos.org/r/gitweb?p=python-dcae-model-runner.git',
-    version='0.1.3',
+    version=__version__,
 )

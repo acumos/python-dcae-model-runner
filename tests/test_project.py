@@ -16,4 +16,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ===============LICENSE_END=========================================================
-from ._version import __version__  # noqa
+'''
+Provides tests for the structure of the project
+'''
+from os.path import dirname, abspath, join as path_join
+from xml.etree import ElementTree
+
+import acumos_dcae_model_runner
+
+
+SETUP_DIR = abspath(dirname(dirname(__file__)))
+
+
+def test_version_match():
+    '''Asserts that the library version matches pom.xml'''
+    pom_path = path_join(SETUP_DIR, 'pom.xml')
+    root = ElementTree.parse(pom_path).getroot()
+    version = root[3]
+    assert version.text == acumos_dcae_model_runner.__version__
