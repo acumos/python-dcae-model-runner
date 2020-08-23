@@ -8,8 +8,8 @@ ADD ./example-model /app/example-model
 ADD ./requirements.txt /app
 ADD ./packages /app/packages
 
-RUN pip install -r /app/requirements.txt && \
-    pip install acumos_dcae_model_runner 
+RUN pip install --no-cache-dir -r /app/requirements.txt && \
+    pip install --no-cache-dir acumos_dcae_model_runner 
 
 ENV DCAEPORT=10000
 EXPOSE $DCAEPORT
