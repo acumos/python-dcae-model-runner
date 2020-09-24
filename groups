@@ -2,4 +2,3 @@
 #
 42f0c83244389e408b42fa668348002012ecba46                                                   	GitHub Replication
 cba49c19d236bf506247866fa60c80645ad2b512                                                   	saml/acumos-gerrit-python-dcae-model-runner-committers
-ldap:cn=acumos-gerrit-python-dcae-model-runner-committers,ou=Groups,dc=freestandards,dc=org	ldap/acumos-gerrit-python-dcae-model-runner-committers
